@@ -1,0 +1,35 @@
+.main {
+    padding: 2rem;
+    min-height: 100vh;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main h1 {
+    margin-bottom: 2rem;
+}
+
+.deckDetail {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    text-align: center;
+}
+.deckDetailCards {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.snapToast {
+    height: 3rem;
+    font-weight: bold;
+}
+
+.snapResults {
+    font-weight: bold;
+    line-height: 1.2;
+}
